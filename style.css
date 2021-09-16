@@ -52,6 +52,28 @@
     text-decoration: line-through;
 }
 
-#change1:hover {
-    background-image: url(./img/1b.webp) ;
+/* photo switch */
+
+.change1:hover {
+    content: url(./img/1b.webp);
+}
+
+.change2:hover {
+    content: url(./img/2b.webp);
+}
+
+.change3:hover {
+    content: url(./img/3b.webp);
+}
+
+.change4:hover {
+    content: url(./img/4b.webp);
+}
+
+.change5:hover {
+    content: url(./img/5b.webp);
+}
+
+.change6:hover {
+    content: url(./img/6b.webp);
 }
