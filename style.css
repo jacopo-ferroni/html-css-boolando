@@ -77,3 +77,45 @@
 .change6:hover {
     content: url(./img/6b.webp);
 }
+
+/* scount */
+
+.scount-container {
+    position: relative;
+}
+
+.scount {
+    background-color: red;
+    position: relative;
+    top: -40px;
+    font-size: 10px;
+    padding: 3px;
+    color: white;
+}
+
+.scount-part2 {
+    background-color: green;
+    position: relative;
+    top: -40px;
+    font-size: 10px;
+    padding: 3px;
+    color: white;
+}
+
+.loveit {
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    top: 5%;
+    right: 0%;
+    padding: 2px;
+    padding-top: 1px;
+    font-size: 10px;
+}
+
+.loveit:hover {
+    color: red;
+}
