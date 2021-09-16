@@ -1,0 +1,53 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.first-container {
+    background-color: white;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.orizzontal {
+    background-color: white;
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px 30px;
+    padding: 0 2px;
+    position: relative;
+}
+
+.scount {
+    position: absolute;
+    background-color: red;
+    bottom: 100%;
+
+}
+
+.product img {
+    width: 100%;
+}
+
+/* text layout */
+
+.brand {
+    font-size: 10px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.red-text {
+    font-size: 10px;
+    color: red;
+    margin-bottom: -2px;
+}
+
+.line-through {
+    color: black;
+    text-decoration: line-through;
+}
