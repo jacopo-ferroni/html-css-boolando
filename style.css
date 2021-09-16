@@ -51,3 +51,7 @@
     color: black;
     text-decoration: line-through;
 }
+
+#change1:hover {
+    background-image: url(./img/1b.webp) ;
+}
